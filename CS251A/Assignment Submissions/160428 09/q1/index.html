@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<style>
+    .ex1 {
+        margin-top: 35px;
+        margin-left: 35px;
+    }
+</style>
+</head>
+
+<body>
+    <script>
+        function foo() {
+            alert("Okay, time's up.");
+            document.getElementById('para').innerHTML = "Sorry about that. <br>I know your cringe levels are off the charts.";
+            document.getElementById('para2').innerHTML = "Click here";
+            document.getElementById('para2').setAttribute("href","aboutme.html");
+        }
+        function changeimg() {
+            var image = document.getElementById('mypic');
+            image.src = "img.jpg";
+            setTimeout(foo, 3000);
+        }
+    </script>
+    <h1 class="ex1">Hey, I'm Naman.</h1>
+    <h2 class="ex1">Work in progress...</h2>
+    <h2 class="ex1">Click here and there to construct this page to its barebones.</h2>
+    <img class="ex1" id="mypic" src="img2.jpg" width="20%" height="20%" onclick="changeimg()">
+    <p id="para" class="ex1"> </p>
+    <a id="para2" class="ex1"> </a>
+</body>
+
+</html>

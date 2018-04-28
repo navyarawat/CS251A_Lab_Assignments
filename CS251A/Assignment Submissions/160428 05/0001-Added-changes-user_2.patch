@@ -1,0 +1,25 @@
+From 7d615545313372ef87894c09e44ac43b7e9d967c Mon Sep 17 00:00:00 2001
+From: Naman Verma <namanv3@Namans-MacBook-Pro.local>
+Date: Sun, 4 Mar 2018 17:27:36 +0530
+Subject: [PATCH] Added changes user_2
+
+---
+ hello.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/hello.c b/hello.c
+index 0336738..0889c3f 100644
+--- a/hello.c
++++ b/hello.c
+@@ -1,7 +1,7 @@
+ #include<stdio.h>
+ 
+ void microkernel_sendmsg(char *);
+-
++//I, user_2, was supposed to make some changes
+ void main(){
+ 	printf("Helloworld!\n");
+ 	printf("This must be a monolithic design\n");
+-- 
+2.7.1
+
